@@ -1,0 +1,17 @@
+Source: blankon-lintian
+Section: misc
+Priority: optional
+Maintainer: BlankOn Developers <BlankOn@googlegroups.com>
+Standards-Version: 3.8.3
+
+Package: blankon-lintian
+Priority: important
+Architecture: all
+Multi-Arch: foreign
+Depends: lintian
+Description: BlankOn Lintian vendor profile
+
+Package: blankon-lintian-udeb
+Architecture: all
+Section: debian-installer
+Description: BlankOn Lintian vendor profile
