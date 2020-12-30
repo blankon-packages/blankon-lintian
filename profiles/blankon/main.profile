@@ -1,9 +1,7 @@
 # The default profile for BlankOn and derivatives thereof.
 Profile: blankon/main
 Extends: debian/main
-Disable-Tags: no-nmu-in-changelog,
- debian-changelog-file-is-a-symlink, lzma-deb-archive,
- mail-address-loops-or-bounces,
+Disable-Tags: debian-changelog-file-is-a-symlink, lzma-deb-archive,
  maintainer-upload-has-incorrect-version-number,
  qa-upload-has-incorrect-version-number,
  source-nmu-has-incorrect-version-number,
